@@ -1,0 +1,109 @@
+.card {
+  border: 1px solid #b6c3ca;
+  border-radius: 4px;
+  padding: 8px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 45%;
+  }
+}
+
+@media (min-width: 992px) {
+  .card {
+    width: 30%;
+  }
+}
+
+.password-detailed-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.initial-card {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 50%;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.initial {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.website-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.user-name {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.password {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+
+.password-logo {
+  height: 12px;
+}
+
+.delete-icon {
+  height: 27px;
+  width: 27px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.violet {
+  background-color: #7683cb;
+}
+
+.lightYellow {
+  background-color: #f59e0b;
+}
+
+.darkYellow {
+  background-color: #f97316;
+}
+
+.lightGreen {
+  background-color: #14b8a6;
+}
+
+.darkGreen {
+  background-color: #10b981;
+}
+
+.red {
+  background-color: #b91c1c;
+}
